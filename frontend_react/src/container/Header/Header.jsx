@@ -20,7 +20,7 @@ const Header = () => {
         transition={{ duration: 0.5 }}
         className='app__header-info'
       >
-        <div className='app__header-badh'>
+        <div className='app__header-badge'>
           <div className='badge-cmp app__flex'>
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
@@ -46,7 +46,7 @@ const Header = () => {
           transition={{ duration: 1, ease: 'easeInOut' }}
           src={images.circle}
           alt='profile_circle'
-          className='overlay-circle'
+          className='overlay_circle'
         />
       </motion.div>
 
