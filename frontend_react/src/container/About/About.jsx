@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { images } from '../../constants'
+// import { images } from '../../constants'
 import './About.scss'
 import { urlFor, client } from '../../client'
+import { AppWrap } from '../../wrapper'
 
 // const abouts = [
 //   {
@@ -51,11 +52,11 @@ const About = () => {
           <motion.div
             whileInView={{ opacity: 0.9 }}
             whileHover={{ scale: 1.1 }}
-            transition={{ duration: 1.5, type: 'tween' }}
+            transition={{ duration: 0.5, type: 'tween' }}
             className='app__profile-item'
             key={about.title + index}
           >
-            <img src={about.imgUrl} alt={about.title} />
+            <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className='bold-text' style={{ marginTop: 20 }}>
               {about.title}
             </h2>
@@ -69,4 +70,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About, 'about')
