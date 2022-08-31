@@ -17,6 +17,8 @@ import redux from '../assets/redux.png'
 import sass from '../assets/sass.png'
 import typescript from '../assets/typescript.png'
 import vue from '../assets/vue.png'
+import java from '../assets/java.png'
+import sql from '../assets/sql.png'
 
 import about01 from '../assets/about01.png'
 import about02 from '../assets/about02.png'
@@ -24,6 +26,7 @@ import about03 from '../assets/about03.png'
 import about04 from '../assets/about04.png'
 
 import profile from '../assets/profile.png'
+import profile1 from '../assets/profile1.png'
 import circle from '../assets/circle.svg'
 import logo from '../assets/logo.png'
 
@@ -43,6 +46,8 @@ export default {
   css,
   figma,
   flutter,
+  java,
+  sql,
   git,
   graphql,
   html,
@@ -60,6 +65,7 @@ export default {
   about03,
   about04,
   profile,
+  profile1,
   circle,
   logo,
   adidas,
