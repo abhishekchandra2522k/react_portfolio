@@ -1,12 +1,12 @@
 import React from 'react'
-import { BsTwitter, BsInstagram, BsGithub } from 'react-icons/bs'
+import { BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const SocialMedia = () => {
   return (
     <div className='app__social'>
       <div>
         <a
-          href='https://twitter.com/abhidevchandra'
+          href='https://twitter.com/abhisheks_aura'
           target='_blank'
           rel='noreferrer'
         >
@@ -24,11 +24,11 @@ const SocialMedia = () => {
       </div>
       <div>
         <a
-          href='https://instagram.com/_abhishekchandra'
+          href='https://www.linkedin.com/in/abhishek-chandra1/'
           target='_blank'
           rel='noreferrer'
         >
-          <BsInstagram />
+          <BsLinkedin />
         </a>
       </div>
     </div>
