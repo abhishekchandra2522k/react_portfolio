@@ -49,7 +49,7 @@ const Blog = () => {
         </li>
       </ul>
 
-      <h2 className='head-text head-text-blog'>My Blog</h2>
+      <h2 className='head-text head-text-blog'>Abhishek Chandra's Blog</h2>
 
       <div className='app__work-filter'>
         {['C/C++', 'Java', 'Web Development', 'SQL', 'OS', 'All'].map(
