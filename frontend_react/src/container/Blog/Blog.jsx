@@ -44,7 +44,9 @@ const Blog = () => {
         <li className='app__flex p-text'>
           <div />
           <a href='/'>
-            <Link to='/'>My Profile</Link>
+            <Link to='/' className='p-text'>
+              My Profile
+            </Link>
           </a>
         </li>
       </ul>

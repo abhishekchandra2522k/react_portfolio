@@ -1,15 +1,16 @@
 .head-text-blog {
-  color: white;
-  background: rgb(6, 1, 87);
-  background: linear-gradient(
-    90deg,
-    rgba(6, 1, 87, 1) 0%,
-    rgba(181, 147, 255, 0.9864320728291317) 37%,
-    rgba(14, 9, 121, 1) 100%
-  );
+  color: black;
+  // background: rgb(6, 1, 87);
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(6, 1, 87, 1) 0%,
+  //   rgba(181, 147, 255, 0.9864320728291317) 37%,
+  //   rgba(14, 9, 121, 1) 100%
+  // );
   border-radius: 15rem;
   padding: 0 1rem;
   margin-top: 1rem;
+  border: 2px solid black;
 }
 
 .b-text {
